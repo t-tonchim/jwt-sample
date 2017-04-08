@@ -7,7 +7,7 @@ Faker::Config.locale = :ja
 
 User.create!(
   name: Faker::Name.name,
-  email: Faker::Internet.safe_email,
+  email: 'test@example.com',
   password: 'test123',
   password_confirmation: 'test123'
 )
